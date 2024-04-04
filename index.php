@@ -1,3 +1,11 @@
+<!--
+Names: Tien Han, Yadira Cervantes
+Date: 4/4/2024
+URL:
+
+This page displays a cupcake order form that a customer can fill out and submit
+-->
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,7 +16,7 @@
     <title>Document</title>
 </head>
 <body>
-<form>
+<form action="process.php" method="post">
     <h3>Cupcake Fundraiser</h3>
     <label for="name">Your Name:</label>
     <input id="name" type="text" name="name"><br>
@@ -40,5 +48,3 @@
 
 </body>
 </html>
-
-<?php
